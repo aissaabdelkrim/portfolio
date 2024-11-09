@@ -13,3 +13,4 @@ lnk.addEventListener("click", function () {
         lnk.innerHTML ='more>>';
     }
 });
+function closePopup() { document.getElementById('popup').style.display = 'none'; } // Open the popup on page load window.onload = function() { document.getElementById('popup').style.display = 'flex'; }
