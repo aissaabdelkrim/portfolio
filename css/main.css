@@ -440,17 +440,17 @@ ul {
     top: -120px;
     left: -220px;
 }
-.contact-page .form {
+.contact-page form {
     width: 500px;
     color: white;
 }
 @media (max-width: 600px) {
-    .contact-page .form {
+    .contact-page form {
         width: 300px;
         text-align: center;
     }
 }
-.contact-page .form input {
+.contact-page form input {
     padding: 15px 20px;
     color: var(--alt-color2);
     outline: none;
@@ -463,31 +463,31 @@ ul {
     background-color: rgba(57, 62, 70, 50%);
     caret-color: var(--alt-color);
 }
-.contact-page .form input::placeholder {
+.contact-page form input::placeholder {
     color: rgba(238, 238, 238, 50%);
     opacity: 1;
     font-weight: bold;
 }
-.contact-page .form .name {
+.contact-page form .name {
     margin-right: 25px;
     width: 235px;
 }
 @media (max-width: 600px) {
-    .contact-page .form .name {
+    .contact-page form .name {
         margin: 0;
         margin-bottom: 20px;
         width: 280px;
     }
 }
-.contact-page .form .email {
+.contact-page form .email {
     width: 235px;
 }
 @media (max-width: 600px) {
-    .contact-page .form .email {
+    .contact-page form .email {
         width: 280px;
     }
 }
-.contact-page .form textarea {
+.contact-page form textarea {
     padding: 15px 20px;
     margin-top: 20px;
     width: 100%;
@@ -505,16 +505,16 @@ ul {
     background-color: rgba(57, 62, 70, 50%)
 }
 @media (max-width: 600px) {
-    .contact-page .form textarea {
+    .contact-page form textarea {
         width: 280px;
     }
 }
-.contact-page .form textarea::placeholder {
+.contact-page form textarea::placeholder {
     color: rgba(238, 238, 238, 50%);
     opacity: 1;
     font-weight: bold;
 }
-.contact-page .form input[type="submit"] {
+.contact-page form input[type="submit"] {
     cursor: pointer;
     margin-top: 20px;
     color: white;
@@ -526,15 +526,15 @@ ul {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
-.contact-page .form input[type="submit"]::after {
+.contact-page form input[type="submit"]::after {
     content: url(../imgs/paper-plane-solid.svg);
     position: absolute;
 }
-.contact-page .form input[type="submit"]:hover {
+.contact-page form input[type="submit"]:hover {
     color: white;
     background-color: var(--alt-color);
 }
-.contact-page .form .mail {
+.contact-page form .mail {
     position: relative;
     right: -360px;
     bottom: -10px;
